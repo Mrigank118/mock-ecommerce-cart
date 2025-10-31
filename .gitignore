@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build and output
+.next/
+out/
+dist/
+build/
+.vercel/
+.turbo/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage / tests
+coverage/
+.eslintcache
+
+# Misc
+*.pid
+*.seed
+*.tgz
